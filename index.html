@@ -8,28 +8,28 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
-   <h1> Sign Up</h1>
-    <form>
+<body style="background-color: rgb(133, 226, 140);">
+   <h1 style="text-align: center;"> Sign Up</h1>
+    <form id="register-form" method="get">
         <div>
-            Full Name:<br/><br/>
-            <input type="text" name="full-name"><br/><br/>
+            <p class="input-label">Full Name:</p>
+            <input class="input-item"  type="text" name="full-name">
         </div>
         <div>
-            Email:<br/><br/>
-            <input type="email" name="email"><br/><br/>
+            <p class="input-label">Email:</p>
+            <input class="input-item" type="email" name="email">
         </div>
         <div>
-            Password:<br/><br/>
-            <input type="password" name="password"><br/><br/>
+            <p class="input-label">Password:</p> 
+            <input class="input-item" type="password" name="password">
         </div>
         <div>
-            Confirm Password:<br/><br/>
-            <input type="password" name="password"><br/><br/>
+            <p class="input-label">Confirm Password:</p> 
+            <input class="input-item" type="password" name="password">
         </div>
         <div>
-            Security Question
-            <select name="security-question">
+            <p class="input-label"> Security Question</p>
+            <select class="input-item" name="security-question">
                 <option value="city">Which city are yo from?</option>
                 <option value="D.O.B">Your D.O.B is?</option>
                 <option value="nick-name">What your nick name?</option>
@@ -37,7 +37,7 @@
             </select><br/><br/>
         </div>
         <div>
-            <textarea name="answer" rows="6" cols="30"></textarea><br/><br/>
+            <textarea class="input-item" name="answer" rows="6" cols="30"></textarea><br/><br/>
 
         </div>
         <div>
